@@ -1,0 +1,36 @@
+Best SIlhouette Score for 14 = 0.16092385435242926
+Radius = 4.559628120635995
+Non-Outliers:-True Non-Outliers = 6
+False Non-Outliers = 62
+Outliers:-False Outliers = 0
+True Outliers = 80
+Precision for radius = 18.559628120635995is = 1.0
+==================================================================
+Radius = 5.559628120635995
+Non-Outliers:-True Non-Outliers = 6
+False Non-Outliers = 27
+Outliers:-False Outliers = 0
+True Outliers = 115
+Precision for radius = 18.559628120635995is = 1.0
+==================================================================
+Radius = 6.559628120635995
+Non-Outliers:-True Non-Outliers = 6
+False Non-Outliers = 6
+Outliers:-False Outliers = 0
+True Outliers = 136
+Precision for radius = 18.559628120635995is = 1.0
+==================================================================
+Radius = 7.559628120635995
+Non-Outliers:-True Non-Outliers = 6
+False Non-Outliers = 2
+Outliers:-False Outliers = 0
+True Outliers = 140
+Precision for radius = 18.559628120635995is = 1.0
+==================================================================
+Radius = 8.559628120635995
+Non-Outliers:-True Non-Outliers = 3
+False Non-Outliers = 0
+Outliers:-False Outliers = 142
+True Outliers = 3
+Precision for radius = 18.559628120635995is = 0.020689655172413793
+==================================================================

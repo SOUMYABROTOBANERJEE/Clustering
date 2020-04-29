@@ -1,0 +1,58 @@
+=====================================================================
+Best SIlhouette Score for 1 = 0.6837308113403217
+Radius = 3.8290900469175253
+Non-Outliers:-True Non-Outliers = 4
+False Non-Outliers = 67
+Outliers:-False Outliers = 138
+True Outliers = 5
+Precision for radius = 3.8290900469175253is = 0.03496503496503497
+Accuracy for radius = 3.8290900469175253is = 0.3364485981308411
+Recall for radius = 3.8290900469175253is = 0.5555555555555556
+F-Score for radius = 3.8290900469175253is = 0.06578947368421052
+==================================================================
+Radius = 4.829090046917525
+Non-Outliers:-True Non-Outliers = 1
+False Non-Outliers = 26
+Outliers:-False Outliers = 179
+True Outliers = 8
+Precision for radius = 4.829090046917525is = 0.0427807486631016
+Accuracy for radius = 4.829090046917525is = 0.1588785046728972
+Recall for radius = 4.829090046917525is = 0.8888888888888888
+F-Score for radius = 4.829090046917525is = 0.08163265306122448
+==================================================================
+Radius = 5.829090046917525
+Non-Outliers:-True Non-Outliers = 19
+False Non-Outliers = 0
+Outliers:-False Outliers = 186
+True Outliers = 9
+Precision for radius = 5.829090046917525is = 0.046153846153846156
+Accuracy for radius = 5.829090046917525is = 0.04205607476635514
+Recall for radius = 5.829090046917525is = 0.32142857142857145
+F-Score for radius = 5.829090046917525is = 0.08071748878923767
+==================================================================
+Radius = 6.829090046917525
+Non-Outliers:-True Non-Outliers = 10
+False Non-Outliers = 0
+Outliers:-False Outliers = 195
+True Outliers = 9
+Precision for radius = 6.829090046917525is = 0.04411764705882353
+Accuracy for radius = 6.829090046917525is = 0.04205607476635514
+Recall for radius = 6.829090046917525is = 0.47368421052631576
+F-Score for radius = 6.829090046917525is = 0.08071748878923768
+==================================================================
+Radius = 7.829090046917525
+Non-Outliers:-True Non-Outliers = 7
+False Non-Outliers = 0
+Outliers:-False Outliers = 198
+True Outliers = 9
+Precision for radius = 7.829090046917525is = 0.043478260869565216
+Accuracy for radius = 7.829090046917525is = 0.04205607476635514
+Recall for radius = 7.829090046917525is = 0.5625
+F-Score for radius = 7.829090046917525is = 0.08071748878923767
+==================================================================
+************************************************************************
+Max Accuracy = 0.3364485981308411 for radius = 3.8290900469175253
+Max Recall = 0.8888888888888888 for radius = 4.829090046917525
+Max Precison = 0.046153846153846156 for radius = 5.829090046917525
+Max F-Score = 0.08163265306122448 for radius = 4.829090046917525
+************************************************************************

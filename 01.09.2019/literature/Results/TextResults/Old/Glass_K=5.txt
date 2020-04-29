@@ -1,0 +1,36 @@
+Best SIlhouette Score for 12 = 0.5190514090243712
+Radius = 29.16507609064342
+Non-Outliers:-True Non-Outliers = 5
+False Non-Outliers = 134
+Outliers:-False Outliers = 71
+True Outliers = 4
+Precision for radius = 43.165076090643424is = 0.05333333333333334
+==================================================================
+Radius = 30.16507609064342
+Non-Outliers:-True Non-Outliers = 62
+False Non-Outliers = 0
+Outliers:-False Outliers = 143
+True Outliers = 9
+Precision for radius = 43.165076090643424is = 0.05921052631578947
+==================================================================
+Radius = 31.16507609064342
+Non-Outliers:-True Non-Outliers = 9
+False Non-Outliers = 0
+Outliers:-False Outliers = 196
+True Outliers = 9
+Precision for radius = 43.165076090643424is = 0.04390243902439024
+==================================================================
+Radius = 32.165076090643424
+Non-Outliers:-True Non-Outliers = 1
+False Non-Outliers = 0
+Outliers:-False Outliers = 204
+True Outliers = 9
+Precision for radius = 43.165076090643424is = 0.04225352112676056
+==================================================================
+Radius = 33.165076090643424
+Non-Outliers:-True Non-Outliers = 1
+False Non-Outliers = 0
+Outliers:-False Outliers = 204
+True Outliers = 9
+Precision for radius = 43.165076090643424is = 0.04225352112676056
+==================================================================

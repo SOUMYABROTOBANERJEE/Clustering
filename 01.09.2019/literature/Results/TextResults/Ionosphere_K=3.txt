@@ -1,0 +1,146 @@
+Best SIlhouette Score for 5 = 0.515085395840572
+Radius = 20.335135355550356
+Non-Outliers:-True Non-Outliers = 29
+False Non-Outliers = 143
+Outliers:-False Outliers = 82
+True Outliers = 97
+Precision for radius = 34.33513535555036is = 0.5418994413407822
+==================================================================
+Radius = 21.335135355550356
+Non-Outliers:-True Non-Outliers = 23
+False Non-Outliers = 123
+Outliers:-False Outliers = 102
+True Outliers = 103
+Precision for radius = 34.33513535555036is = 0.5024390243902439
+==================================================================
+Radius = 22.335135355550356
+Non-Outliers:-True Non-Outliers = 20
+False Non-Outliers = 98
+Outliers:-False Outliers = 127
+True Outliers = 106
+Precision for radius = 34.33513535555036is = 0.45493562231759654
+==================================================================
+Radius = 23.335135355550356
+Non-Outliers:-True Non-Outliers = 16
+False Non-Outliers = 74
+Outliers:-False Outliers = 151
+True Outliers = 110
+Precision for radius = 34.33513535555036is = 0.421455938697318
+==================================================================
+Radius = 24.335135355550356
+Non-Outliers:-True Non-Outliers = 12
+False Non-Outliers = 42
+Outliers:-False Outliers = 183
+True Outliers = 114
+Precision for radius = 34.33513535555036is = 0.3838383838383838
+==================================================================
+Best SIlhouette Score for 3 = 0.6271384161781237
+Radius = 20.175121615452284
+Non-Outliers:-True Non-Outliers = 33
+False Non-Outliers = 145
+Outliers:-False Outliers = 80
+True Outliers = 93
+Precision for radius = 34.175121615452284is = 0.5375722543352601
+==================================================================
+Radius = 21.175121615452284
+Non-Outliers:-True Non-Outliers = 25
+False Non-Outliers = 122
+Outliers:-False Outliers = 103
+True Outliers = 101
+Precision for radius = 34.175121615452284is = 0.4950980392156863
+==================================================================
+Radius = 22.175121615452284
+Non-Outliers:-True Non-Outliers = 17
+False Non-Outliers = 96
+Outliers:-False Outliers = 129
+True Outliers = 109
+Precision for radius = 34.175121615452284is = 0.4579831932773109
+==================================================================
+Radius = 23.175121615452284
+Non-Outliers:-True Non-Outliers = 14
+False Non-Outliers = 71
+Outliers:-False Outliers = 154
+True Outliers = 112
+Precision for radius = 34.175121615452284is = 0.42105263157894735
+==================================================================
+Radius = 24.175121615452284
+Non-Outliers:-True Non-Outliers = 11
+False Non-Outliers = 40
+Outliers:-False Outliers = 185
+True Outliers = 115
+Precision for radius = 34.175121615452284is = 0.38333333333333336
+==================================================================
+=====================================================================
+Best SIlhouette Score for 3 = 0.621642499545844
+Radius = 20.895612812457994
+Non-Outliers:-True Non-Outliers = 31
+False Non-Outliers = 138
+Outliers:-False Outliers = 87
+True Outliers = 95
+Precision for radius = 34.895612812458is = 0.521978021978022
+==================================================================
+Radius = 21.895612812457994
+Non-Outliers:-True Non-Outliers = 25
+False Non-Outliers = 120
+Outliers:-False Outliers = 105
+True Outliers = 101
+Precision for radius = 34.895612812458is = 0.49029126213592233
+==================================================================
+Radius = 22.895612812457994
+Non-Outliers:-True Non-Outliers = 21
+False Non-Outliers = 92
+Outliers:-False Outliers = 133
+True Outliers = 105
+Precision for radius = 34.895612812458is = 0.4411764705882353
+==================================================================
+Radius = 23.895612812457994
+Non-Outliers:-True Non-Outliers = 18
+False Non-Outliers = 64
+Outliers:-False Outliers = 161
+True Outliers = 108
+Precision for radius = 34.895612812458is = 0.40148698884758366
+==================================================================
+Radius = 24.895612812457994
+Non-Outliers:-True Non-Outliers = 11
+False Non-Outliers = 38
+Outliers:-False Outliers = 187
+True Outliers = 115
+Precision for radius = 34.895612812458is = 0.38079470198675497
+==================================================================
+=====================================================================
+Best SIlhouette Score for 1 = 0.5387809657546476
+Radius = 20.510322243722005
+Non-Outliers:-True Non-Outliers = 32
+False Non-Outliers = 139
+Outliers:-False Outliers = 86
+True Outliers = 94
+Precision for radius = 20.510322243722005is = 0.5222222222222223
+==================================================================
+Radius = 21.510322243722005
+Non-Outliers:-True Non-Outliers = 27
+False Non-Outliers = 124
+Outliers:-False Outliers = 101
+True Outliers = 99
+Precision for radius = 21.510322243722005is = 0.495
+==================================================================
+Radius = 22.510322243722005
+Non-Outliers:-True Non-Outliers = 20
+False Non-Outliers = 97
+Outliers:-False Outliers = 128
+True Outliers = 106
+Precision for radius = 22.510322243722005is = 0.452991452991453
+==================================================================
+Radius = 23.510322243722005
+Non-Outliers:-True Non-Outliers = 14
+False Non-Outliers = 69
+Outliers:-False Outliers = 156
+True Outliers = 112
+Precision for radius = 23.510322243722005is = 0.417910447761194
+==================================================================
+Radius = 24.510322243722005
+Non-Outliers:-True Non-Outliers = 9
+False Non-Outliers = 41
+Outliers:-False Outliers = 184
+True Outliers = 117
+Precision for radius = 24.510322243722005is = 0.38870431893687707
+==================================================================

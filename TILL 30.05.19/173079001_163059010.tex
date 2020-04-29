@@ -1,0 +1,160 @@
+\documentclass[conference]{IEEEtran}
+%\usepackage[numbers,sort&compress]{natbib}
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage{textcomp} %for minus sign \textminus
+\numberwithin{equation}{section}
+\renewcommand{\thesection}{\arabic{section}}
+%\definenote[thanks][conversion=set 2]
+\IEEEoverridecommandlockouts
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{url}
+\captionsetup[table]{skip=10pt}
+\begin{document}
+\title{Implementation of DBSCAN Algorithm from scratch}
+\author{Anuraag Tummanapally\\173079001 \and Madhu Kalapala\\163059010}
+\maketitle
+
+
+\begin{abstract}
+This Project is all about Implementing Density-based spatial clustering of applications with noise (DBSCAN) from scratch, using 'python' as a programming language.
+\end{abstract}
+
+\section{Introduction}
+DBSCAN is an unsupervised clustering algorithm. As the name suggests, the key idea of this algorithm is based on how dense the data points are located. More details about the steps involved are discussed in the following sections.\\
+
+Some other famous Algorithms are k-means clustering, Fuzzy c-mean, etc..\\
+
+But the advantage of DBCAN being that it is more immune to noise, and the number of clusters are not fixed before the algorithm is run as in case of k-means.
+
+\section{Algorithm}
+\noindent Labelling convention: 
+\begin{itemize}
+\item 0: Unlabelled
+\item -1: Noise
+\item 1: Cluster number 1
+\\...
+\item k: Cluster number k
+\end{itemize}
+Procedure:
+\begin{enumerate}
+\item Index all points,and label all as '0'
+\item foreach point:
+\begin{enumerate}
+\item If it is labelled already, goto next point.
+\item Get points (neighbours) within '$\epsilon$' distance from the chosen point.
+\item If \# of neighbours $<$ 'minPts', label as NOISE(-1) and goto next point.
+\item Else, label it as a new cluster ($c_{new}$).
+\item select the neighbouring points as a new set 'S', for each point in 'S':
+\begin{enumerate}
+\item If labelled as -1, relabel to new cluster number ($c_{new}$), and goto next point in the set.
+\item If point is already labelled, skip it.
+\item If it is unlabelled, then label it ($c_{new}$),\\
+Get newighbours in $\epsilon$ boundary and if count $>$ minPts add to the set 'S'
+\item continue to next point in the set, if set is empty, the go back to step (a)
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+
+\begin{figure}[h]
+\centering
+\includegraphics [scale=0.4]{dbscan.png}
+\caption{DBSCAN example}
+\label{fig_dbscan}
+\end{figure}
+
+\section{Tools and Packages used}
+We have used python language to program DBSCAN algorithm. Following packages were required in the process:
+\begin{enumerate}
+\item numpy
+\item pandas
+\item MinMaxScaler from sklearn.preprocessing package
+\item pyplot from matplotlib
+\item Axes3D from mpl\_toolkits.mplot3d package
+\item flask
+\end{enumerate}
+
+All the dependencies can be installed using pip.\\
+\texttt{
+	pip install --user numpy pandas flask sklearn matplotlib mpl\_toolkits
+}
+
+\section{Resources}
+All the code for implementing DBSCAN is available as a public repository in github, at
+https://github.com/TummanapallyAnuraag/EE769\_project
+
+\section{Results}
+We have developed a program which will take a csv as input and give labels of each datapoint as output, depending on the hyperparameters($\epsilon$ and minPts) that are set.\\
+
+We have used data of GasEmissions($CO_2$, $CO$ and $CH_4$) of all states of India, and applied our clustering algorithm on it.\\
+
+Depending on $\epsilon$ and minPts, we have differnt  clusters. One such labelling can be seen in Fig\ref{fig1}. In Fig\ref{fig1}, three axes represent normalised gas emission values and each dot corresponds to a state in India.\\
+
+In support to our intuition, we can observe from Fig \ref{fig1} - \ref{fig4} that as $\epsilon$ increases number of clusters decrease, and noise increases as minPts are increased.\\
+
+To select best clustering amongst all the available ones, some metrics such as Davies-Bouldin index (DBI), Silhouette can be used. But that discussion is beyond the scope of our work.
+
+\begin{figure}[h]
+\centering
+\includegraphics [scale=0.4]{eps_pt4.png}
+\caption{Labelled Clusters, for $\epsilon$ = 0.4, minPts = 3}
+\label{fig1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics [scale=0.4]{eps_pt6.png}
+\caption{Labelled Clusters, for $\epsilon$ = 0.6, minPts = 3}
+\label{fig2}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics [scale=0.4]{eps_pt8.png}
+\caption{Labelled Clusters, for $\epsilon$ = 0.8, minPts = 3}
+\label{fig3}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics [scale=0.4]{minpts_5.png}
+\caption{Labelled Clusters, for $\epsilon$ = 0.5, minPts = 5}
+\label{fig4}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics [scale=0.3]{web_demo.png}
+\caption{Web Demo Page}
+\label{fig5}
+\end{figure}
+
+We have also implemented a Web Demo version of the DBSCAN, which passes the location of points in the canvas(in web page) to the python script via AJAX in JSON format. Python script runs this data through the clustering algorithm and returns label values. All this happens within a snap.\\
+A screen shot of the Web Demo page can be seen in Fig\ref{fig5}
+
+
+
+\section{Acknowledgement}
+We would like to thank Prof.Amit Sethi who has given us an oppurtunity to do this course project in Machine Learning.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\begin{thebibliography}{9}
+\bibitem{one} 
+Wikipedia, "\url{https://en.wikipedia.org/wiki/DBSCAN}"
+
+\bibitem{two} 
+Flask Documentation, "\url{http://flask.pocoo.org/docs/0.12/quickstart/}"
+ 
+\bibitem{three} 
+jQuery Documentation, "\url{https://api.jquery.com/}"
+
+\bibitem{four}
+Python Documentation, "\url{https://docs.python.org/3/}"
+
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,36 @@
+Best SIlhouette Score for 15 = 0.523838265593135
+Radius = 3.6803462337346264
+Non-Outliers:-True Non-Outliers = 3
+False Non-Outliers = 57
+Outliers:-False Outliers = 148
+True Outliers = 6
+Precision for radius = 17.680346233734625is = 0.03896103896103896
+==================================================================
+Radius = 4.680346233734626
+Non-Outliers:-True Non-Outliers = 2
+False Non-Outliers = 29
+Outliers:-False Outliers = 176
+True Outliers = 7
+Precision for radius = 17.680346233734625is = 0.03825136612021858
+==================================================================
+Radius = 5.680346233734626
+Non-Outliers:-True Non-Outliers = 18
+False Non-Outliers = 0
+Outliers:-False Outliers = 187
+True Outliers = 9
+Precision for radius = 17.680346233734625is = 0.04591836734693878
+==================================================================
+Radius = 6.680346233734626
+Non-Outliers:-True Non-Outliers = 14
+False Non-Outliers = 0
+Outliers:-False Outliers = 191
+True Outliers = 9
+Precision for radius = 17.680346233734625is = 0.045
+==================================================================
+Radius = 7.680346233734626
+Non-Outliers:-True Non-Outliers = 7
+False Non-Outliers = 0
+Outliers:-False Outliers = 198
+True Outliers = 9
+Precision for radius = 17.680346233734625is = 0.043478260869565216
+==================================================================

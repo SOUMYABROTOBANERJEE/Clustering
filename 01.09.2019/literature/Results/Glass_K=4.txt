@@ -1,0 +1,30 @@
+Radius = 41.30167022932892
+Non-Outliers:-True Non-Outliers = 77
+False Non-Outliers = 7
+Outliers:-False Outliers = 128
+True Outliers = 2
+==================================================================
+Radius = 42.30167022932892
+Non-Outliers:-True Non-Outliers = 80
+False Non-Outliers = 7
+Outliers:-False Outliers = 125
+True Outliers = 2
+==================================================================
+Radius = 43.30167022932892
+Non-Outliers:-True Non-Outliers = 88
+False Non-Outliers = 7
+Outliers:-False Outliers = 117
+True Outliers = 2
+==================================================================
+Radius = 44.30167022932892
+Non-Outliers:-True Non-Outliers = 91
+False Non-Outliers = 8
+Outliers:-False Outliers = 114
+True Outliers = 1
+==================================================================
+Radius = 45.30167022932892
+Non-Outliers:-True Non-Outliers = 98
+False Non-Outliers = 8
+Outliers:-False Outliers = 107
+True Outliers = 1
+==================================================================

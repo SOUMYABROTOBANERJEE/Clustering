@@ -1,0 +1,36 @@
+Best SIlhouette Score for 8 = 0.25928613106676834
+Radius = 8.759423688360913
+Non-Outliers:-True Non-Outliers = 18
+False Non-Outliers = 5175
+Outliers:-False Outliers = 4673
+True Outliers = 2
+Precision for radius = 22.75942368836091is = 0.000427807486631016
+==================================================================
+Radius = 9.759423688360913
+Non-Outliers:-True Non-Outliers = 2
+False Non-Outliers = 1707
+Outliers:-False Outliers = 8141
+True Outliers = 18
+Precision for radius = 22.75942368836091is = 0.0022061527147934795
+==================================================================
+Radius = 10.759423688360913
+Non-Outliers:-True Non-Outliers = 1
+False Non-Outliers = 318
+Outliers:-False Outliers = 9530
+True Outliers = 19
+Precision for radius = 22.75942368836091is = 0.0019897371452508115
+==================================================================
+Radius = 11.759423688360913
+Non-Outliers:-True Non-Outliers = 38
+False Non-Outliers = 0
+Outliers:-False Outliers = 9810
+True Outliers = 20
+Precision for radius = 22.75942368836091is = 0.002034587995930824
+==================================================================
+Radius = 12.759423688360913
+Non-Outliers:-True Non-Outliers = 21
+False Non-Outliers = 0
+Outliers:-False Outliers = 9827
+True Outliers = 20
+Precision for radius = 22.75942368836091is = 0.002031075454453133
+==================================================================
